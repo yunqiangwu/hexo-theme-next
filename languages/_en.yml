@@ -16,6 +16,8 @@ menu:
   schedule: Schedule
   sitemap: Sitemap
   commonweal: Commonweal 404
+  games: Games
+  demos: Demos
 
 sidebar:
   overview: Overview
@@ -49,6 +51,8 @@ page:
 footer:
   powered: "Powered by %s"
   theme: Theme
+  pv: Total visited
+  uv: Unique visitor
 
 counter:
   tag_cloud:
