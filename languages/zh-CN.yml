@@ -15,6 +15,8 @@ menu:
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益 404
+  games: 游戏
+  demos: 演示
 sidebar:
   overview: 站点概览
   toc: 文章目录
@@ -44,6 +46,8 @@ page:
 footer:
   powered: "由 %s 强力驱动"
   theme: 主题
+  pv: 总访问量
+  uv: 总访客量
 counter:
   tag_cloud:
     zero: 暂无标签
