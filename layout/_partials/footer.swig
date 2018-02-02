@@ -40,7 +40,6 @@
   {% set nofollow = ' rel="external nofollow"' %}
 {% endif %}
 
-<!--
 
 {% if theme.footer.powered %}
   <div class="powered-by">{#
@@ -60,22 +59,6 @@
   #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
 #}</div>
 {% endif %}
-
--->
-
-<span id="busuanzi_container_site_pv">
-    {{ __('footer.pv') }} <span id="busuanzi_value_site_pv"></span>
-</span>
-
-{% if theme.footer.powered and theme.footer.theme.enable %}
-  <span class="post-meta-divider">|</span>
-{% endif %}
-
-
-<span id="busuanzi_container_site_uv">
-  {{ __('footer.uv') }} <span id="busuanzi_value_site_uv"></span>
-</span>
-
 
 
 
