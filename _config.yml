@@ -66,7 +66,7 @@ footer:
   #since: 2015
 
   # Icon between year and copyright info.
-  icon: user
+  icon: heart 
 
   # If not defined, will be used `author` from Hexo main config.
   copyright: 
@@ -904,3 +904,10 @@ images: images
 
 # Theme version
 version: 6.0.3
+
+
+# Online contact 
+daovoice: true
+daovoice_app_id: 21ab5529
+
+
