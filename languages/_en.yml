@@ -51,8 +51,8 @@ page:
 footer:
   powered: "Powered by %s"
   theme: Theme
-  pv: Total visited
-  uv: Unique visitor
+  site_pv: Visitors 
+  site_uv: Unique Visitors
 
 counter:
   tag_cloud:

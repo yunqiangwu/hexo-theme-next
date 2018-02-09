@@ -216,8 +216,11 @@
 
           {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.page_pv %}
             <span class="post-meta-divider">|</span>
-            <span class="page-pv" title={{ theme.busuanzi_count.page_pv_title }}>{{ theme.busuanzi_count.page_pv_header }}
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>{{ theme.busuanzi_count.page_pv_footer }}
+            <span class="post-meta-item-icon"
+            {% if not theme.post_meta.item_text %} title="{{ __('post.visitors') }}" {% endif %}>
+            <i class="fa fa-{{ theme.busuanzi_count.page_pv_icon }}"></i>
+            {% if theme.post_meta.item_text %} {{__('post.visitors') }}: {% endif %}
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
             </span>
           {% endif %}
 
