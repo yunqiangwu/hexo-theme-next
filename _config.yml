@@ -45,15 +45,15 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  small: /images/favicon-16x16-song.png
+  medium: /images/favicon-32x32-song.png
   apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  safari_pinned_tab: /images/logo-song.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "徐松, 徐松的博客, 机器学习, 计算机视觉, 深度学习, 自然语言处理, ESON"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -81,7 +81,7 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  #custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
+  custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -93,7 +93,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true 
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -132,9 +132,9 @@ menu_settings:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
+#scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -174,7 +174,7 @@ social_icons:
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the title and aria-label name.
-#github_banner: https://github.com/yourname || Follow me on GitHub
+# github_banner: https://github.com/xu-song || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
@@ -221,13 +221,13 @@ sidebar:
   #display: remove
 
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
-  offset: 12
+  offset: 12 
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true 
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
@@ -266,7 +266,7 @@ post_meta:
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
   separated_meta: true
-  item_text_post: false
+  item_text_post: true 
   item_text_total: false 
   awl: 5
   wpm: 200
@@ -318,7 +318,7 @@ android_chrome_color: "#222"
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
+  enabled: false 
   image:
 
 # Code Highlight theme
@@ -332,7 +332,7 @@ cheers_enabled: true
 # Manual define the max content width
 # !!Only available for Gemini Scheme currently
 # Leave it empty for the default 75% (suggest not less than 1000px)
-#max_content_width: 1000px
+# max_content_width: 1000px
 
 # Manual define the sidebar width
 # !!Only available for Gemini Scheme currently
@@ -450,8 +450,8 @@ pangu: false
 # Disqus
 disqus:
   enable: true
-  shortname: xusong-vip
-  count: true
+  shortname: Eson
+  count: false 
   lazyload: true 
 
 # Hypercomments
@@ -516,6 +516,7 @@ gitment:
 # Warning: JiaThis does not support https.
 #jiathis:
   ##uid: Get this uid from http://www.jiathis.com/
+
 #add_this_id:
 
 # NeedMoreShare2
@@ -622,18 +623,16 @@ firestore:
   projectId: #required
   bluebird: false #enable this if you want to include bluebird 3.5.1(core version) Promise polyfill
 
-# Show PV/UV of the website/page with busuanzi.
-# PV: number of visitors
-# UV: number of unique visitors
+# Show Views/Visitors of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   enable: true
-  site_uv: true
-  site_uv_icon: user
-  site_pv: true
-  site_pv_icon: eye
-  page_pv: true
-  page_pv_icon: eye  
+  total_visitors: true
+  total_visitors_icon: user
+  total_views: true
+  total_views_icon: eye
+  post_views: true
+  post_views_icon: eye
 
 
 # Tencent analytics ID
@@ -644,7 +643,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true 
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -933,11 +932,15 @@ js: js
 images: images
 
 # Theme version
-version: 6.0.3
-
+version: 6.0.4
 
 # Online contact 
-daovoice: true
+daovoice: false 
 daovoice_app_id: 21ab5529
 
+# hexo sitemap网站地图 这个配置不需要加
+#sitemap:
+#  path: sitemap.xml
+#baidusitemap:
+#  path: baidusitemap.xml
 
