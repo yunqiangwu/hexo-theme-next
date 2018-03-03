@@ -934,13 +934,10 @@ images: images
 # Theme version
 version: 6.0.4
 
-# Online contact 
-daovoice: false 
-daovoice_app_id: 21ab5529
 
-# hexo sitemap网站地图 这个配置不需要加
+# 自动生成sitemap网站地图。这个配置根本不起作用
 #sitemap:
-#  path: sitemap.xml
+#  path: sitessmap.xml
 #baidusitemap:
-#  path: baidusitemap.xml
+#  path: baissfdsafasusitemap.xml
 
