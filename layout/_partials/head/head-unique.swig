@@ -1,9 +1,9 @@
 {% if page.keywords %}
-  <meta name="keywords1" content="{{ page.keywords }}" />
+  <meta name="keywords" content="{{ page.keywords }}" />
 {% elif page.tags and page.tags.length %}
-  <meta name="keywords2" content="{% for tag in page.tags %}{{ tag.name }},{% endfor %}" />
+  <meta name="keywords" content="{% for tag in page.tags %}{{ tag.name }},{% endfor %}" />
 {% elif theme.keywords %}
-  <meta name="keywords3" content="{{ theme.keywords }}" />
+  <meta name="keywords" content="{{ theme.keywords }}" />
 {% endif %}
 
 {{

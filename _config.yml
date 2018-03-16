@@ -81,7 +81,7 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
+  custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a> and <a target="_blank" rel="external nofollow" href="https://pages.github.com"><b>Github Pages</b></a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -152,6 +152,10 @@ site_state: true
 social:
   GitHub: https://github.com/xu-song || github
   E-Mail: mailto:xusong.vip@gmail.com || envelope
+  QQ: http://dd || qq
+  微博: http://weibo.com/your-user-name || weibo
+  #豆瓣: http://douban.com/people/your-user-name || douban
+  #知乎: http://www.zhihu.com/people/your-user-name || zhihu
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -164,11 +168,11 @@ social:
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
   # Dependencies: exturl: true in Tags Settings section below.
   # To encrypt links above use https://www.base64encode.org
   # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`
-  exturl: false
+  exturl: true 
 
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
@@ -181,8 +185,8 @@ links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  添加link: 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -286,9 +290,9 @@ wechat_subscriber:
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
-  enable: false
+  enable: true 
   title: # custom header, leave empty to use the default one
-  display_in_home: false
+  display_in_home: false 
   params:
     maxCount: 5
     #PPMixingRate: 0.0
@@ -352,7 +356,7 @@ sidebar_width:
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: false 
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -365,7 +369,7 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Lato
+    family: 
     size:
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
@@ -385,7 +389,7 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
+    family: Yesteryear
     size:
 
   # Font settings for <code> and code blocks.
@@ -445,7 +449,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 4144ca6f2a9b60f1feea7806f82aa6d0
 
 # Disqus
 disqus:
@@ -549,14 +553,14 @@ needmoreshare2:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: emtKuCBSwP_Lnea7aB-7zRLW9DcVrzBUJlbMxRP_VrY
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-115875587-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
-#bing_site_verification:
+bing_site_verification: B8683323A6FE81E9114DA3678D59F8E1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -803,14 +807,14 @@ pace_theme: pace-theme-minimal
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
-canvas_nest: false
+canvas_nest: false 
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
 # three_waves
-three_waves: false
+three_waves: false 
 # canvas_lines
-canvas_lines: false
+canvas_lines: false 
 # canvas_sphere
 canvas_sphere: false
 
