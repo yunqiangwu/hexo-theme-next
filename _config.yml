@@ -148,9 +148,9 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/xu-song || github
-  E-Mail: mailto:xusong.vip@gmail.com || envelope
-  QQ: http://dd || qq
-  微博: http://weibo.com/your-user-name || weibo
+  E-Mail: mailto:eson.org@gmail.com || envelope
+  QQ: http://wpa.qq.com/msgrd?v=3&uin=373453180&site=qq&menu=yes || qq
+  微博: http://blog.eson.org || weibo
   #豆瓣: http://douban.com/people/your-user-name || douban
   #知乎: http://www.zhihu.com/people/your-user-name || zhihu
   #Google: https://plus.google.com/yourname || google
@@ -203,7 +203,7 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
+creative_commons: by-nc-sa
 #creative_commons:
 
 sidebar:
@@ -633,7 +633,7 @@ firestore:
 # Show Views/Visitors of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: true
+  enable: true 
   total_visitors: true
   total_visitors_icon: user
   total_views: true
@@ -753,7 +753,7 @@ reading_progress:
 
 # Use velocity to animate everything.
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
@@ -774,19 +774,19 @@ motion:
 # Please, choose only any one variant, do not need to install both.
 # For install 2.x: https://github.com/theme-next/theme-next-fancybox
 # For install 3.x: https://github.com/theme-next/theme-next-fancybox3
-fancybox: false
+fancybox: false 
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-fastclick
-fastclick: false
+fastclick: false 
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
-lazyload: false
+lazyload: false 
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: false
+pace: false 
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -797,7 +797,7 @@ pace: false
 #pace-theme-center-simple
 #pace-theme-corner-indicator
 #pace-theme-fill-left
-#pace-theme-flash
+#pece_theme: pace-theme-flash
 #pace-theme-loading-bar
 #pace-theme-mac-osx
 #pace-theme-minimal
