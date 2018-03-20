@@ -112,11 +112,11 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   #games: /games || chess 
-  demos: /demos || laptop
+  #demos: /demos || laptop
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-  about: /about/ || user
+  #about: /about/ || user
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -150,12 +150,12 @@ social:
   GitHub: https://github.com/xu-song || github
   E-Mail: mailto:eson.org@gmail.com || envelope
   QQ: http://wpa.qq.com/msgrd?v=3&uin=373453180&site=qq&menu=yes || qq
-  微博: http://blog.eson.org || weibo
+  #微博: http://blog.eson.org || weibo
   #豆瓣: http://douban.com/people/your-user-name || douban
   #知乎: http://www.zhihu.com/people/your-user-name || zhihu
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
-  #FB Page: https://www.facebook.com/yourname || facebook
+  FB Page: https://www.facebook.com/eson.org || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
