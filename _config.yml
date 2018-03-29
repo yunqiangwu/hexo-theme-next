@@ -182,8 +182,8 @@ links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
-links:
-  添加link: 
+#links:
+#  添加link: 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -415,9 +415,9 @@ math:
   # hexo-rendering-pandoc (or hexo-renderer-kramed) needed to full MathJax support.
   mathjax:
     # Use 2.7.1 as default, jsdelivr as default CDN, works everywhere even in China
-    cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    #cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     # For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org).
-    #cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).
     #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
     # For automatic detect latest version link to MathJax.js and get from Bootcss.
@@ -469,9 +469,9 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  enable: false 
+  appid:  VageLjGDLz2CAdfD8VkNRVEr-gzGzoHsz # your leancloud application appid
+  appkey: lAVvCzp1tyzNsg9rctCLdFCT # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -550,6 +550,7 @@ needmoreshare2:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
+# 如果客户端无法访问google，会造成页面加载缓慢。所以暂时关掉google
 google_site_verification: emtKuCBSwP_Lnea7aB-7zRLW9DcVrzBUJlbMxRP_VrY
 
 # Google Analytics
@@ -557,7 +558,7 @@ google_analytics: UA-115875587-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
-bing_site_verification: B8683323A6FE81E9114DA3678D59F8E1
+bing_site_verification: D07545095E3B3DED99406636136B159E
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -610,9 +611,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: false 
+  app_id: VageLjGDLz2CAdfD8VkNRVEr-gzGzoHsz
+  app_key: lAVvCzp1tyzNsg9rctCLdFCT
   # LeanCloud Counter Security Plugin (beta, currently under the testing).
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in lc counter and just want to use it directly
@@ -711,7 +712,7 @@ bookmark:
 # External URL with BASE64 encrypt & decrypt.
 # Usage: {% exturl text url "title" %}
 # Alias: {% extlink text url "title" %}
-exturl: false
+exturl: true
 
 # Note tag (bs-callout).
 note:
@@ -774,7 +775,7 @@ motion:
 # Please, choose only any one variant, do not need to install both.
 # For install 2.x: https://github.com/theme-next/theme-next-fancybox
 # For install 3.x: https://github.com/theme-next/theme-next-fancybox3
-fancybox: false 
+fancybox: true 
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-fastclick
