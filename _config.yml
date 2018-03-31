@@ -63,7 +63,14 @@ footer:
   #since: 2015
 
   # Icon between year and copyright info.
-  icon: heart 
+  icon: 
+    # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
+    # `heart` is recommended with animation in red (#ff0000).
+    name: user
+    # If you want to animate the icon, set it to true.
+    animated: false
+    # Change the color of icon, using Hex Code.
+    color: "#808080"
 
   # If not defined, will be used `author` from Hexo main config.
   copyright: 
@@ -271,6 +278,11 @@ symbols_count_time:
   item_text_total: false 
   awl: 5
   wpm: 200
+
+# Manual define the border radius in codeblock
+# Leave it empty for the default 1
+codeblock:
+  border_radius: 
 
 # Wechat Subscriber
 wechat_subscriber:
@@ -618,7 +630,7 @@ leancloud_visitors:
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in lc counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
-  security: false
+  security: true
   betterPerformance: false
 
 # Another tool to show number of visitors to each article.
@@ -944,7 +956,7 @@ js: js
 images: images
 
 # Theme version
-version: 6.0.6
+version: 6.1.0
 
 
 # 自动生成sitemap网站地图。这个配置根本不起作用
