@@ -263,8 +263,8 @@ auto_excerpt:
 
 # Post edit
 post_edit:
-  enable: false
-  url:
+  enable: true
+  url: https://github.com/ESblog/_posts/tree/master/
 
 # Post meta display settings
 post_meta:
