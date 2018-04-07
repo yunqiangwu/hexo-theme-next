@@ -955,6 +955,13 @@ vendors:
   valine:
 
 
+# captioned: false. Hide the captions of all instagrams.
+# width: set the width of all instagrams
+tagInstagram:
+  captioned: true 
+  width: 50%
+
+
 # Assets
 css: css
 js: js
