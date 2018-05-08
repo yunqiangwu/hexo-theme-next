@@ -264,11 +264,6 @@ auto_excerpt:
   enable: true 
   length: 150
 
-# Post edit
-post_edit:
-  enable: false
-  url: https://github.com/ESblog/_posts/tree/master/
-
 # Post meta display settings
 post_meta:
   item_text: false 
@@ -331,7 +326,7 @@ post_copyright:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: false
-  url: https://github.com/theme-next/theme-next.org/_posts/tree/master/ # Link for view source.
+  url: https://github.com/ESblog/_posts/tree/master/ # Link for view source.
 # url: https://github.com/theme-next/theme-next.org/_posts/edit/master/ # Link for fork & edit.
 
 
