@@ -263,7 +263,7 @@ auto_excerpt:
 
 # Post edit
 post_edit:
-  enable: true
+  enable: false
   url: https://github.com/ESblog/_posts/tree/master/
 
 # Post meta display settings
@@ -424,7 +424,7 @@ math:
   # Default(true) will load mathjax/katex script on demand
   # That is it only render those page who has 'mathjax: true' in Front Matter.
   # If you set it to false, it will load mathjax/katex srcipt EVERY PAGE.
-  per_page: true
+  per_page: true 
 
   engine: mathjax
   #engine: katex
