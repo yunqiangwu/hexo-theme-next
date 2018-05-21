@@ -158,14 +158,14 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/xu-song || github
-  E-Mail: mailto:eson.org@gmail.com || envelope
+  E-Mail: mailto:xusong.vip@gmail.com || envelope
   QQ: http://wpa.qq.com/msgrd?v=3&uin=373453180&site=qq&menu=yes || qq
   #微博: http://blog.eson.org || weibo
   #豆瓣: http://douban.com/people/your-user-name || douban
   #知乎: http://www.zhihu.com/people/your-user-name || zhihu
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
-  FB Page: https://www.facebook.com/eson.org || facebook
+  FB Page: https://www.facebook.com/xusong666 || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
